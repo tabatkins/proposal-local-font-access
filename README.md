@@ -1,5 +1,6 @@
 # Proposal For Local Font Access And Origin-Based Caching
 
+**Existential Status:** personal draft, unapproved by anyone else so far
 
 ## Background ##
 
