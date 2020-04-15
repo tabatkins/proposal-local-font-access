@@ -139,7 +139,7 @@ they're not huge blobs.)
 (Issue: can we restrict transferring them to same-origin only?
 Or equivalent security boundary?)
 
-### document.localFonts ###
+### `window.localFontStorage` ###
 
 While `LocalFontFace` objects *can* be stored in IndexedDB,
 fetched on page load,
