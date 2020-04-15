@@ -28,7 +28,9 @@ For example, design/publishing sites that want to allow users to use their own f
 or sites showcasing ancient/dead languages
 (such as Egyptology sites showing heiroglyphics)
 that aren't well-supported in system fonts
-and won't ever be popular enough to be "above the line" in the crawl data.
+and won't ever be popular enough to be "above the line" in the crawl data,
+or minority languages wanting to use a new font
+that's not yet popular enough to show up in the crawl data.
 
 
 ## Proposal ##
