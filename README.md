@@ -102,6 +102,12 @@ Like form controls,
 "change" and "input" events are fired at this element
 when the user makes a font selection.
 
+#### Or should it be `<font-picker>`? ####
+
+[Issue #1](https://github.com/tabatkins/proposal-local-font-access/issues/1) asks for the element to be generalized to handle all font-picking capabilities, including loaded webfonts in the listing.
+
+This sounds reasonable! No reason to have one UI for local fonts and one for webfonts. This does mean that `.value` might be a `FontFace` rather than a `LocalFontFace`, but that's easy to test for, and I think worthwhile.
+
 ### `LocalFontFace` Objects ###
 
 `LocalFontFace` is a subclass of the existing `FontFace` interface,
